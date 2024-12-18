@@ -9,7 +9,7 @@ from kproxy import Proxy
 
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 
-from undetected_chromedriver.v2 import Chrome as ChromeDriver
+from undetected_chromedriver import Chrome as ChromeDriver
 
 # -------------------------------------------------------------------------------------------------------------------------------- #
 

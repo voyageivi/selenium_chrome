@@ -5,7 +5,7 @@ from typing import Optional, List, Callable
 import os
 
 # Pip
-from undetected_chromedriver.v2 import ChromeOptions
+from undetected_chromedriver import ChromeOptions
 
 # Local
 from .chrome_addon_install_settings import ChromeAddonInstallSettings

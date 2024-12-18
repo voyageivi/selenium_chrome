@@ -65,7 +65,7 @@ class Chrome(Browser):
         update_chromedriver: bool = False
     ):
         '''EITHER PROVIDE 'profile_id' OR  'profile_path'.
-           webdriver_class: override class used to create webdriver (for example: seleniumwire.webdriver.Chrome), Defaults to: 'undetected_chromedriver.v2.Chrome'
+           webdriver_class: override class used to create webdriver (for example: seleniumwire.webdriver.Chrome), Defaults to: 'undetected_chromedriver.Chrome'
         '''
 
         proxy = BrowserUtils.proxy(proxy)
