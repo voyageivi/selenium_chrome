@@ -5,7 +5,7 @@ from typing import Optional, Union, List, Tuple
 import os
 
 # Pip
-from undetected_chromedriver.v2 import Chrome as ChromeDriver
+from undetected_chromedriver import Chrome as ChromeDriver
 
 from kproxy import Proxy
 from selenium_browser import Browser, Utils as BrowserUtils
